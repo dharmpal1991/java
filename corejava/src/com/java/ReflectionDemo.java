@@ -33,6 +33,14 @@ public class ReflectionDemo {
 		for(int i=0;i<f.length;i++){
 			System.out.println(f[i]);
 		}
+		
+		System.out.println(String.class.getClassLoader());
+		System.out.println(Student1.class.getClassLoader());
+		Runtime r = Runtime.getRuntime();
+		long mb = 1024*1024;
+		System.out.println(r.maxMemory()/mb);
+		System.out.println(r.totalMemory()/mb);
+		System.out.println(r.freeMemory()/mb);
 	}
 
 }
