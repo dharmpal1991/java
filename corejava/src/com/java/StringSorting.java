@@ -21,9 +21,7 @@ private static String logestString(String[]arr){
 		}
 	}
 	return logestString;
-	
 }
-
 	public static void main(String[] args) {
 		String[] arr = { "sham", "ram", "dharmpal", "kansujia", "Aman", "dharmpalkansujia", "maa", "venu" };
 		sorting(arr);
