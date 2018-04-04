@@ -17,7 +17,7 @@ public class FindDuplicateInString {
 				}
 			}
 		}
-		System.err.println(map);
-	}
+		System.out.println(map);
+	}				
 
 }

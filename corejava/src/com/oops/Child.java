@@ -9,6 +9,9 @@ public class Child  extends Parent{
 	public void methodTwo(){
 		System.out.println("child");
 	}
+	public void methodOne(){
+		System.out.println("parent1");
+	}
 	public static void main(String[] args) {
 		Parent p = new Parent();
 		p.methodOne();

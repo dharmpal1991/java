@@ -28,6 +28,4 @@ public class Solution6 {
 		int c = difference(pro, price, pro1, price1);
 		System.out.println(c);
 	}
-	
-
 }
