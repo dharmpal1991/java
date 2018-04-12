@@ -1,5 +1,14 @@
 package com.oops;
 
+
+			/*Enter a number:
+			4
+			44444
+			44144
+			44244
+			44344
+			44444*/
+
 import java.util.Scanner;
 
 public class Pattern1 {

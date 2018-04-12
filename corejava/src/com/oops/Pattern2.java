@@ -1,5 +1,15 @@
 package com.oops;
 
+		/*
+		3
+		44
+		555
+		6666
+		6666
+		555
+		44
+		3*/
+
 public class Pattern2 {
 	public static void main(String[] args) {
 		int n = 4;
